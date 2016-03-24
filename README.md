@@ -139,6 +139,21 @@ namespace StyleGuide
 
 ```
 if (...) {
+} else {
+}
+
+while (1) {
+}
+
+switch ( language ) {
+	case "korean":
+    	//...
+    	break;
+	case "korean":
+    	//...
+    	break;
+    default:
+    	break;
 }
 ```
 
