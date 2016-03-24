@@ -41,12 +41,12 @@ void runQuery()
 const string GOOGLE_URL = 'google.com';
 enum DAYS {
 	SAT = 1,
-    SUN,
-    MON,
-    TUE,
-    WED,
-    THU,
-    FRI
+	SUN,
+	MON,
+	TUE,
+	WED,
+	THU,
+	FRI
 };
 ```
 
@@ -64,16 +64,16 @@ enum DAYS {
 class MyClass()
 {
 	public MyClass()
-    {
-    }
+	{
+	}
 
-    public void runStart()
-    {
-    }
+	public void runStart()
+	{
+	}
 
-    private void _hideMe()
-    {
-    }
+	private void _hideMe()
+	{
+	}
 }
 ```
 
@@ -113,23 +113,23 @@ public GameObject buttonSkip;	// O
 namespace StyleGuide
 {
 	public class MyClass
-    {
-    	int name = 'guider';
+	{
+		int name = 'guider';
 
-        public MyClass()
-        {
-        }
+		public MyClass()
+		{
+		}
 
-        public multiply ( int num )
-        {
-        	return num * num;
-        }
+		public multiply ( int num )
+		{
+			return num * num;
+		}
 
-        private sum ( int num)
-        {
-        	return num + num;
-        }
-    }
+		private sum ( int num)
+		{
+			return num + num;
+		}
+	}
 }
 ```
 
@@ -147,20 +147,15 @@ while (1) {
 
 switch ( language ) {
 	case "korean":
-    	//...
-    	break;
+		//...
+		break;
 	case "korean":
-    	//...
-    	break;
-    default:
-    	break;
+		//...
+		break;
+	default:
+		break;
 }
 ```
-
-
-참고 : [나무위키:코딩 스타일](https://namu.wiki/w/%EC%BD%94%EB%94%A9%20%EC%8A%A4%ED%83%80%EC%9D%BC)
-
-
 
 ## 4. 주석
 
@@ -176,12 +171,12 @@ switch ( language ) {
 /// </summary>
 namespace StyleGuide
 {
-    /// <summary>
-    /// 내 클래스
-    /// </summary>
-    public class MyClass
-    {
-    }
+	/// <summary>
+	/// 내 클래스
+	/// </summary>
+	public class MyClass
+	{
+	}
 }
 
 ```
@@ -213,15 +208,15 @@ public class StyleGuide : MonoBehaviour
 	[HideInInspector]
 	static private StyleGuide instance;
 
-    void Awake()
-    {
-    	instance = this;
-    }
+	void Awake()
+	{
+		instance = this;
+	}
 
 	public SytleGuide getInstance()
-    {
-        return instance;
-    }
+	{
+		return instance;
+	}
 }
 ```
 
