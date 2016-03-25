@@ -93,7 +93,6 @@ public GameObject buttonSkip;	// O
 
 
 ### 2.5. array, enum 형
-- 카멜표기법을 사용합니다.
 - array의 변수는 복수형을 사용합니다.
  - 변수의 명만 봐도 바로 배열형임을 알 수있게 됩니다.
  - 배열 변수명의 예
@@ -101,13 +100,9 @@ public GameObject buttonSkip;	// O
   2. list (O) : 원래 복수형
 
 ## 3. indention
-- 2가지 스타일을 병행해서 사용합니다.
-- namespace, class, function과 같이 집합으로 이루워지는 단위는 `BSD 스타일`을 로직을 담당하는 분기문과 반복문에는 `K&R 스타일`을 사용합니다.
-
-### 3.1. namespace, class, function
- - **BSD 스타일**을 따라서 사용합니다.
- - 프로그램의 묶음 단위를 편하게 인식 할 수 있도록 합니다.
- - 각 단위 앞뒤로는 한줄을 띄어 주도록 합니다.
+- namespace, class, function과 같이 집합으로 이루워지는 단위는 `BSD 스타일`을 사용합니다.
+- 프로그램의 묶음 단위를 편하게 인식 할 수 있도록 합니다.
+- 각 단위 앞뒤로는 한줄을 띄어 주도록 합니다.
 
 ```
 namespace StyleGuide
@@ -120,12 +115,12 @@ namespace StyleGuide
 		{
 		}
 
-		public multiply ( int num )
+		public int multiplyAddOne ( int num )
 		{
 			return num * num;
 		}
 
-		private sum ( int num)
+		private int sum ( int num)
 		{
 			return num + num;
 		}
@@ -133,19 +128,18 @@ namespace StyleGuide
 }
 ```
 
-### 3.2. 분기문(if), 반복문(for, foreach, while, do)
-- **K&R 스타일**을 따라서 사용합니다.
-- 로직부분을 전체적으로 간결하게 보이면, 함수 이전의 단계를 구분할 수 있게 합니다.
-
 ```
-if (...) {
+if (...)
+{
 } else {
 }
 
-while (1) {
+while (1)
+{
 }
 
-switch ( language ) {
+switch ( language )
+{
 	case "korean":
 		//...
 		break;
@@ -206,22 +200,29 @@ Unity3D에서 Class 참조 시 getInstance() 함수로 참조 하게 한다.
 public class StyleGuide : MonoBehaviour
 {
 	[HideInInspector]
-	static private StyleGuide instance;
+	private static StyleGuide instance;
 
 	void Awake()
 	{
 		instance = this;
 	}
 
-	public SytleGuide getInstance()
+	public static SytleGuide getInstance()
 	{
 		return instance;
 	}
 }
 ```
 
+## Visual Studio auto format document on Save
+* [Format document on Save](https://visualstudiogallery.msdn.microsoft.com/3ea1c920-69c4-441f-9979-ccc2752dac56)
+
+Visual Studio 에서 위 플러그인을 설치 하면, 저장 할 때 자동으로 indent와 포맷을 수정 후 저장해 줍니다.
+
 
 ## 참고
 * [자연스럽고 일관성 있게 자바스크립트 코딩하는 원칙](https://github.com/rwaldron/idiomatic.js/tree/master/translations/ko_KR)
 * [스타일 가이드](https://namu.wiki/w/코딩 스타일)
 * [TODO, FIXME, XXX 태그의 의미](http://egloos.zum.com/rucaus/v/2455594)
+* [Style guides for Google-originated open-source projects](https://github.com/google/styleguide)
+* [Unity3D C# coding style guide](https://github.com/gyuha/Unity3DCodingStyleGuide)
