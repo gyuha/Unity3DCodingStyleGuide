@@ -192,7 +192,7 @@ fixme comment는 해당 함수, 또는 변수 상단에 달아 줍니다.
 ```
 
 
-## Unity3D class get instance
+## 5. Unity3D class get instance
 
 Unity3D에서 Class 참조 시 getInstance() 함수로 참조 하게 한다.
 
@@ -214,13 +214,13 @@ public class StyleGuide : MonoBehaviour
 }
 ```
 
-## Visual Studio auto format document on Save
+## 6. Visual Studio auto format document on Save
 * [Format document on Save](https://visualstudiogallery.msdn.microsoft.com/3ea1c920-69c4-441f-9979-ccc2752dac56)
 
 Visual Studio 에서 위 플러그인을 설치 하면, 저장 할 때 자동으로 indent와 포맷을 수정 후 저장해 줍니다.
 
 
-## 참고
+## 7. 참고
 * [자연스럽고 일관성 있게 자바스크립트 코딩하는 원칙](https://github.com/rwaldron/idiomatic.js/tree/master/translations/ko_KR)
 * [스타일 가이드](https://namu.wiki/w/코딩 스타일)
 * [TODO, FIXME, XXX 태그의 의미](http://egloos.zum.com/rucaus/v/2455594)
