@@ -214,11 +214,28 @@ public class StyleGuide : MonoBehaviour
 }
 ```
 
-## 6. Visual Studio auto format document on Save
-* [Format document on Save](https://visualstudiogallery.msdn.microsoft.com/3ea1c920-69c4-441f-9979-ccc2752dac56)
+## 6. Visual Studio plugins
+
+### 6.1 Visual Studio auto format document on Save
+* [Format document on Save Download](https://visualstudiogallery.msdn.microsoft.com/3ea1c920-69c4-441f-9979-ccc2752dac56)
 
 Visual Studio 에서 위 플러그인을 설치 하면, 저장 할 때 자동으로 indent와 포맷을 수정 후 저장해 줍니다.
 
+### 6.2 FuzzyOpenFile
+* [FuzzyOpenFile Download](https://visualstudiogallery.msdn.microsoft.com/c1b0a945-bfd1-489a-ad50-e3c31c446d51)
+
+ALT+o를 누르면 빠르게 파일을 찾아서 열 수 있습니다.
+
+
+### 6.3 CodeMaid
+* [CodeMaid Download](https://visualstudiogallery.msdn.microsoft.com/76293c4d-8c16-4f4a-aee6-21f83a571496)
+
+C#, C++, F#, VB, PHP, PowerShell, R, JSON, XAML, XML, ASP, HTML, CSS, LESS, SCSS, JavaScript 등의 언어를 깔끔하게 정리해 줍니다.
+
+### 6.3 Indent Guides
+* [Indent Guides Download](https://visualstudiogallery.msdn.microsoft.com/e792686d-542b-474a-8c55-630980e72c30)
+
+코드의 indent 라인을 표시해 줍니다.
 
 ## 7. 참고
 * [자연스럽고 일관성 있게 자바스크립트 코딩하는 원칙](https://github.com/rwaldron/idiomatic.js/tree/master/translations/ko_KR)
