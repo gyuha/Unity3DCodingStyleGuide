@@ -283,7 +283,7 @@ C#, C++, F#, VB, PHP, PowerShell, R, JSON, XAML, XML, ASP, HTML, CSS, LESS, SCSS
 ## 7. 참고
 
   - [자연스럽고 일관성 있게 자바스크립트 코딩하는 원칙](https://github.com/rwaldron/idiomatic.js/tree/master/translations/ko_KR)
-  - [스타일 가이드](https://namu.wiki/w/코딩 스타일)
+  - [스타일 가이드](https://namu.wiki/w/%EC%BD%94%EB%94%A9%20%EC%8A%A4%ED%83%80%EC%9D%BC)
   - [TODO, FIXME, XXX 태그의 의미](http://egloos.zum.com/rucaus/v/2455594)
   - [Style guides for Google-originated open-source projects](https://github.com/google/styleguide)
   - [Unity3D C# coding style guide](https://github.com/gyuha/Unity3DCodingStyleGuide)
