@@ -4,6 +4,8 @@
 
 [TOC]
 
+
+
 ## 1. 공백
 
 - Indent는 스페이스 쓰지 않고 탭을 사용합니다.
@@ -19,6 +21,8 @@ if ( a = 0 ){
 ```
 
 - 쉼표는 문자열 뒷쪽에 붙여 줍니다.(2.1 enum 참고)
+
+
 
 ## 2. 이름 짓기
 
@@ -108,6 +112,8 @@ public GameObject buttonSkip;	// O
     1. dog (X), dogs (O)
     2. list (O) : 원래 복수형
 
+
+
 ## 3. indention
 
 - namespace, class, function과 같이 집합으로 이루워지는 단위는 `BSD 스타일`을 사용합니다.
@@ -161,6 +167,8 @@ switch ( language )
 }
 ```
 
+
+
 ## 4. 주석
 
 ### 4.1. 기본 규칙
@@ -197,11 +205,12 @@ fixme comment는 해당 함수, 또는 변수 상단에 달아 줍니다.
 4. NOTE : 해당 부분의 이해가 필요 하거나, 메모를 남기고 싶을 때.
 
 ```csharp
-// TODO : 음성인식 로직을 개선 사항이 보임.
-// FIXME : 랜덤으로 오류가 발생 함.
-// XXX : 구현중 정확한 동작 확인 필요
-// NOTE : 특별 변수와 연동이 되어 있습니다.
+// TODO: 음성인식 로직을 개선 사항이 보임.
+// FIXME: 랜덤으로 오류가 발생 함.
+// XXX: 구현중 정확한 동작 확인 필요
+// NOTE: 특별 변수와 연동이 되어 있습니다.
 ```
+
 
 
 ## 5. Unity3D class get instance
@@ -226,32 +235,50 @@ public class StyleGuide : MonoBehaviour
 }
 ```
 
+
+
 ## 6. Visual Studio plugins
 
-### 6.1 Visual Studio auto format document on Save
+### 6.1 Visual Studio auto format document on Save - 추천
 
 - [Format document on Save Download](https://visualstudiogallery.msdn.microsoft.com/3ea1c920-69c4-441f-9979-ccc2752dac56)
 
 Visual Studio 에서 위 플러그인을 설치 하면, 저장 할 때 자동으로 indent와 포맷을 수정 후 저장해 줍니다.
 
-### 6.2 FuzzyOpenFile
+### 6.2 Supercharger - 추천
 
-- [FuzzyOpenFile Download](https://visualstudiogallery.msdn.microsoft.com/c1b0a945-bfd1-489a-ad50-e3c31c446d51)
+- [Supercharger Download](https://marketplace.visualstudio.com/items?itemName=MichaelKissBG8.Supercharger)
 
-ALT+o를 누르면 빠르게 파일을 찾아서 열 수 있습니다.
+AutoText, CodeMAP, Intelligent Code Flow Lines, Code Highlighters, Rich Code, Magic Comments, Phrasing Review, Spellist, SuperFind, Statistics etc.
+
+![](https://supercharger.tools/img/CM-light-enabled.png)
 
 
-### 6.3 CodeMaid
+### 6.3 CodeMaid - 추천
 
 - [CodeMaid Download](https://visualstudiogallery.msdn.microsoft.com/76293c4d-8c16-4f4a-aee6-21f83a571496)
 
 C#, C++, F#, VB, PHP, PowerShell, R, JSON, XAML, XML, ASP, HTML, CSS, LESS, SCSS, JavaScript 등의 언어를 깔끔하게 정리해 줍니다.
 
-### 6.3 Indent Guides
+![](http://www.codemaid.net/wp-content/uploads/2019/03/about.png)
 
-- [Indent Guides Download](https://visualstudiogallery.msdn.microsoft.com/e792686d-542b-474a-8c55-630980e72c30)
+### 6.4 Toggle Comment
 
-코드의 indent 라인을 표시해 줍니다.
+- [Toggle Comment Download](https://marketplace.visualstudio.com/items?itemName=munyabe.ToggleComment)
+
+선택한 라인의 주석을 달거나 주석 처리를 제거하는 간단한 비주얼 스튜디오 확장 기능입니다.
+
+![](https://munyabe.gallerycdn.vsassets.io/extensions/munyabe/togglecomment/1.8/1554640837144/206080/1/menu_place.png)
+
+### 6.5 VSColorOutput
+
+- [VSColorOutput Download](https://marketplace.visualstudio.com/items?itemName=MikeWard-AnnArbor.VSColorOutput)
+
+출력에서 색상을 표시 한다.
+
+![](http://i.imgur.com/NhH0tMZ.png)
+
+
 
 ## 7. 참고
 
@@ -260,3 +287,4 @@ C#, C++, F#, VB, PHP, PowerShell, R, JSON, XAML, XML, ASP, HTML, CSS, LESS, SCSS
   - [TODO, FIXME, XXX 태그의 의미](http://egloos.zum.com/rucaus/v/2455594)
   - [Style guides for Google-originated open-source projects](https://github.com/google/styleguide)
   - [Unity3D C# coding style guide](https://github.com/gyuha/Unity3DCodingStyleGuide)
+
